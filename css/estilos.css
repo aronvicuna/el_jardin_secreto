@@ -3,6 +3,7 @@ body
   font-family: 'Ubuntu', sans-serif;
    font-size: 17px;
    font color: withe;
+    color: #ffffff;
 }
 
 
@@ -59,13 +60,35 @@ body
     background: #492371;
   }
 
+
+  .google-maps {
+     position: relative;
+     padding-bottom: 75%; // This is the aspect ratio
+     height: 0;
+     overflow: hidden;
+ }
+ .google-maps iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100% !important;
+     height: 100% !important;
+ }
+ 
  @media (min-width: 768px) {
  .navbar-nav {
     float: right;
     margin: 0;
     font-size: 12px;
     }
+.col-sm-6.texto_contacto{
+    padding-left: 160px;
   }
+  .col-sm-6.formulario_contacto{
+    padding-right: 160px;
+  }
+  }
+
 @media (min-width: 991px) {
     .navbar-nav {
     float: right;
