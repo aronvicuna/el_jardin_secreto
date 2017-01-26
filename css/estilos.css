@@ -40,10 +40,14 @@ body
    margin-bottom: 0px;
 }
 
-.row{
+.row {
   padding-top: 20px;
 }
 
+.col-sm-4{
+text-align: center;
+padding-bottom: 20px;
+}
    .servicios {
    background: #D8D8D8;
    border: 6px solid #EC7B00;
@@ -74,7 +78,7 @@ body
      width: 100% !important;
      height: 100% !important;
  }
- 
+
  @media (min-width: 768px) {
  .navbar-nav {
     float: right;
